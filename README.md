@@ -75,3 +75,7 @@ viewmanager.open( 'foo' );
 
 Opens the view specified by the id 'foo', esuring it has the proper show and hide classes applied and that
 all other managed views are appropriately hidden (again, with proper show/hide classes applied).
+
+## Reference
+
+This is essentially a fork and simplification of [ymir](https://github.com/honeinc/ymir).
