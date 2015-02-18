@@ -1,0 +1,29 @@
+{
+  "name": "viewmanager",
+  "version": "0.0.1",
+  "description": "A simple utility for managing a list of views, showing/hiding them when one is opened.",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify examples/index.js -o examples/bundle.js -d",
+    "test": "browserify test/*.js | tape-run -b firefox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/honeinc/viewmanager.git"
+  },
+  "keywords": [
+    "view",
+    "manager",
+    "hone"
+  ],
+  "author": "Andy Burke <aburke@bitflood.org>",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^8.1.1",
+    "tape": "^3.4.0",
+    "tape-run": "^0.3.0"
+  },
+  "dependencies": {
+    "eventemitter2": "^0.4.14"
+  }
+}
