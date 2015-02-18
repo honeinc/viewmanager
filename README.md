@@ -1,6 +1,6 @@
 # ViewManager [![Build Status](https://travis-ci.org/honeinc/viewmanager.svg?branch=master)](https://travis-ci.org/honeinc/viewmanager)
 
-ViewManager is a simple library to maintain a set of views such that only one view is open at a time.
+ViewManager is a small, simple library to maintain a set of views such that only one view is open at a time.
 
 ## Install
 
